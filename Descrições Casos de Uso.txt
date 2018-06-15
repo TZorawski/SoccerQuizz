@@ -55,3 +55,94 @@ Caso de Uso JOGAR
 5.1.1. Sistema encaminha pedido de Revanche para o adversário.
 5.1.2. Adversário não aceita.
 5.1.3. Sistema volta para passo 5, porém omite a variante 5.1.
+
+================================================================================
+
+Caso de Uso GERENCIAR PERMISSÕES
+1. Sistema apresenta a lista de usuários cadastrados.
+2. Moderador seleciona o usuário a atualizar permissões.
+3. Sistema apresenta a lista de permissões disponíveis.
+4. Moderador marca ou desmarca os campos que deseja.
+5. Sistema apresenta as variantes para que o moderador escolha:
+5.1. Confirmar
+5.2. Cancelar
+
+5.1. Variante CONFIRMAR:
+5.1.1. Moderador confirma as modificações realizadas.
+5.1.2. Sistema redireciona para o passo 1.
+
+5.2. Variante CANCELAR:
+5.2.1. Moderador cancela as modificações realizadas.
+5.2.2. Sistema redireciona para o passo 3.
+
+================================================================================
+
+Caso de Uso GERENCIAR COMPETIÇÕES
+1. Sistema apresenta as variantes para que o moderador escolha:
+1.1. Criar Competição
+1.2. Encerrar Competição
+
+1.1. Variante CRIAR COMPETIÇÃO
+1.1.1. Sistema apresenta os campos a serem preenchidos sobre a competição.
+1.1.2. Usuário preenche as informações necessárias.
+1.1.3. Sistema apresenta as variantes para que o moderador escolha:
+1.1.4.1. Confirmar
+1.1.4.2. Cancelar
+
+1.1.4.1. Variante CONFIRMAR
+1.1.4.1.1. Moderador confirma a criação da competição.
+1.1.4.1.2. Sistema redireciona para o passo 1.
+
+1.1.4.2. Variante CANCELAR
+1.1.4.2.1. Moderador cancela a criação da competição.
+1.1.4.2.2. Sistema redireciona para o passo 1.
+
+1.2. Variante ENCERRAR COMPETIÇÃO
+1.2.1. Sistema apresenta as competições em andamento.
+1.2.2. Moderador seleciona a competição a ser encerrada.
+1.2.3. Sistema apresenta as variantes para que o moderador escolha:
+1.2.3.1. Confirmar
+1.2.3.2. Cancelar
+
+1.2.3.1. Variante CONFIRMAR
+1.2.3.1.1. Moderador confirma o encerramento da competição.
+1.2.3.1.2. Sistema redireciona para o passo 1.
+
+1.2.3.2. Variante CANCELAR
+1.2.3.2.1. Moderador cancela o encerramento da competição.
+1.2.3.2.2. Sistema redireciona para o passo 1.2.1.
+
+================================================================================
+
+Caso de Uso GERENCIAR PERGUNTAS
+1. Sistema os campos para serem preenchidos.
+2. Moderador insere as informações sobra a pergunta.
+3. <<INCLUDE>> Gerenciar Temas
+4. Sistema apresenta as variantes para que o moderador escolha:
+4.1 Confirmar
+4.2 Cancelar
+
+4.1. Variante CONFIRMAR
+4.1.1. Moderador confirma a criação da pergunta.
+4.1.2. Sistema redireciona para o passo 1.
+
+4.2. Variante CANCELAR
+4.2.1. Moderador cancela a criação da pergunta.
+4.2.2. Sistema redireciona para o passo 1.
+
+================================================================================
+
+Caso de Uso GERENCIAR TEMAS
+1. Sistema apresenta o campo para inserir o tema.
+2. Sistema apresenta as variantes para que o moderador escolha:
+2.1 Confirmar
+2.2 Cancelar
+
+2.1. Variante CONFIRMAR
+2.1.1. Moderador confirma a criação do tema.
+2.1.2. Sistema redireciona para o passo 1.
+
+2.2. Variante CANCELAR
+2.2.1. Moderador cancela a criação do tema.
+2.2.2. Sistema redireciona para o passo 1.
+

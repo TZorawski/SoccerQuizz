@@ -1,0 +1,204 @@
+﻿Caso de Uso ESCOLHER MODO DE JOGO
+1. Sistema apresenta as variantes para que o usuário escolha:
+1.1. Jogar em Modo Clássico
+1.2. Jogar em Modo Competição
+2. Usuário escolhe o Modo de Jogo desejado.
+3. Sistema redireciona para página de jogo.
+
+1.1. Variante MODO CLÁSSICO:
+1.1.1. Usuário opta por jogar fora de uma competição.
+1.1.2. Sistema passa para passo 3.
+
+1.2. Variante MODO COMPETIÇÃO:
+1.2.1. <<INCLUDE>> Escolher Competição.
+1.2.2. Sistema direciona para passo 3.
+
+================================================================================
+
+Caso de Uso ESCOLHER COMPETIÇÃO
+1. Sistema lista as competições que estão acontecendo no momento.
+2. Usuário escolha uma das competições.
+3. Sistema lista as informações da competição escolhida.
+4. Usuário confirma escolha.
+
+3.1. Fluxo alternativo ESCOLHE EQUIPE (Caso seja a primeira vez que o usuário escolha jogar na competição):
+3.1.1. Sistema lista informações da competição e times participantes.
+3.1.2. Usuário escolhe uma equipe para representar durante toda a competição.
+3.1.3. Sistema guarda equipe escolhida e redireciona para passo 4.
+
+================================================================================
+
+Caso de Uso JOGAR
+1. Sistema encontra oponente.
+2. Sistema gera o conjunto de perguntas a serem respondidas.
+3. Sistema inicia uma partida com 5 perguntas e tempo máximo de 2 minutos para os dois jogadores.
+4. Usuário responde às questões.
+5. Sistema exibe resultado da partida e exibe as seguintes variantes, permitindo que João escolha uma:
+5.1. Pedir Revanche.
+5.2. Iniciar nova Partida.
+5.3. Sair.
+6. Usuário seleciona sair do Jogo.
+7. Sistema redireciona para Escolher Modo de Jogo.
+
+5.1. Variante PEDIR REVANCHE:
+5.1.1. Sistema encaminha pedido de Revanche para o adversário.
+5.1.2. Adversário aceita.
+5.1.3. Sistema redireciona para passo 2.
+
+5.2. Variante INICIAR NOVA PARTIDA:
+5.2.1. Sistema passa novamente para passo 1.
+
+5.3. Variante SAIR:
+5.3.1. Sistema redireciona para Escolher Modo de Jogo.
+
+5.1. Fluxo alternativo PEDIR REVANCHE:
+5.1.1. Sistema encaminha pedido de Revanche para o adversário.
+5.1.2. Adversário não aceita.
+5.1.3. Sistema volta para passo 5, porém omite a variante 5.1.
+
+================================================================================
+
+Caso de Uso GERENCIAR PERMISSÕES
+1. Sistema apresenta a lista de usuários cadastrados.
+2. Moderador seleciona o usuário a atualizar permissões.
+3. Sistema apresenta a lista de permissões disponíveis.
+4. Moderador marca ou desmarca os campos que deseja.
+5. Sistema apresenta as variantes para que o moderador escolha:
+5.1. Confirmar
+5.2. Cancelar
+
+5.1. Variante CONFIRMAR:
+5.1.1. Moderador confirma as modificações realizadas.
+5.1.2. Sistema redireciona para o passo 1.
+
+5.2. Variante CANCELAR:
+5.2.1. Moderador cancela as modificações realizadas.
+5.2.2. Sistema redireciona para o passo 3.
+
+================================================================================
+
+Caso de Uso GERENCIAR COMPETIÇÕES
+1. Sistema apresenta as variantes para que o moderador escolha:
+1.1. Criar Competição
+1.2. Encerrar Competição
+
+1.1. Variante CRIAR COMPETIÇÃO
+1.1.1. Sistema apresenta os campos a serem preenchidos sobre a competição.
+1.1.2. Usuário preenche as informações necessárias.
+1.1.3. Sistema apresenta as variantes para que o moderador escolha:
+1.1.4.1. Confirmar
+1.1.4.2. Cancelar
+
+1.1.4.1. Variante CONFIRMAR
+1.1.4.1.1. Moderador confirma a criação da competição.
+1.1.4.1.2. Sistema redireciona para o passo 1.
+
+1.1.4.2. Variante CANCELAR
+1.1.4.2.1. Moderador cancela a criação da competição.
+1.1.4.2.2. Sistema redireciona para o passo 1.
+
+1.2. Variante ENCERRAR COMPETIÇÃO
+1.2.1. Sistema apresenta as competições em andamento.
+1.2.2. Moderador seleciona a competição a ser encerrada.
+1.2.3. Sistema apresenta as variantes para que o moderador escolha:
+1.2.3.1. Confirmar
+1.2.3.2. Cancelar
+
+1.2.3.1. Variante CONFIRMAR
+1.2.3.1.1. Moderador confirma o encerramento da competição.
+1.2.3.1.2. Sistema redireciona para o passo 1.
+
+1.2.3.2. Variante CANCELAR
+1.2.3.2.1. Moderador cancela o encerramento da competição.
+1.2.3.2.2. Sistema redireciona para o passo 1.2.1.
+
+================================================================================
+
+Caso de Uso GERENCIAR PERGUNTAS
+1. Sistema os campos para serem preenchidos.
+2. Moderador insere as informações sobra a pergunta.
+3. <<INCLUDE>> Gerenciar Temas
+4. Sistema apresenta as variantes para que o moderador escolha:
+4.1 Confirmar
+4.2 Cancelar
+
+4.1. Variante CONFIRMAR
+4.1.1. Moderador confirma a criação da pergunta.
+4.1.2. Sistema redireciona para o passo 1.
+
+4.2. Variante CANCELAR
+4.2.1. Moderador cancela a criação da pergunta.
+4.2.2. Sistema redireciona para o passo 1.
+
+================================================================================
+
+Caso de Uso GERENCIAR TEMAS
+1. Sistema apresenta o campo para inserir o tema.
+2. Sistema apresenta as variantes para que o moderador escolha:
+2.1 Confirmar
+2.2 Cancelar
+
+2.1. Variante CONFIRMAR
+2.1.1. Moderador confirma a criação do tema.
+2.1.2. Sistema redireciona para o passo 1.
+
+2.2. Variante CANCELAR
+2.2.1. Moderador cancela a criação do tema.
+2.2.2. Sistema redireciona para o passo 1.
+
+================================================================================
+
+Caso de Uso REALIZAR CADASTRO
+1. Sistema apresenta os campos para ser preenchidos.
+2. O jogador insere as informações de cadastro.
+3. O sistema informa os Termo de Uso e Privacidade.
+3. Sistema apresenta as variantes para que o jogador escolha:
+3.1. Confirmar Informações e Aceitar Termo de Uso
+3.2. Cancelar
+
+2.1. Variante CONFIRMAR INFORMAÇÕES E ACEITAR TERMO DE USO
+2.1.1. Jogador confirma as informações inseridas.
+2.1.2. Sistema redireciona para a página de login.
+
+2.2. Variante CANCELAR
+2.2.1. Jogador cancela o seu cadastro.
+2.2.2. Sistema redireciona para a página inicial.
+
+================================================================================
+
+Caso de Uso EXIBIR RANKING INDIVIDUAL
+1. O sistema apresenta um lista com os 15 jogadores com a maior pontuação no Modo de Jogo Clássico. O usuário pode visualizar por País, ou a classificação Geral.
+2. Sistema também apresenta no fim, em qual posição o jogador está e a sua pontuação.
+3. Se o usuário clicar em qualquer jogador, o sistema redireciona para o perfil dele <<EXTENDS>> Exibir Perfil
+4. A qualquer momento, o jogador pode fechar a tela, redirecionando para a tela ESCOLHER MODO DE JOGO
+
+================================================================================
+
+Caso de Uso EXIBIR RANKING COMPETIÇÃO
+1. O sistema apresenta um lista com os 17 jogadores com a maior pontuação no Modo de Jogo Competição. O usuário pode visualizar a classificação na sua equipe, ou a classificação Geral.
+2. Sistema também apresenta no fim, em qual posição o jogador está e a sua pontuação.
+3. Se o usuário clicar em qualquer jogador, o sistema redireciona para o perfil dele <<EXTENDS>> Exibir Perfil
+4. A qualquer momento, o jogador pode fechar a tela, redirecionando para a tela ESCOLHER MODO DE JOGO
+
+================================================================================
+
+Caso de Uso EXIBIR PERFIL
+1. O sistema apresenta as informações de foto de perfil, nome e país. Também apresenta as dados de partidas jogadas e eventos que participou.
+2. A qualquer momento, o jogador pode fechar o perfil e voltar ao ponto anterior.
+
+Fluxo alternativo EXIBIR PERFIL
+1. O sistema apresenta as informações de foto de perfil, nome e país. Também apresenta as dados de partidas jogadas e eventos que participou.
+2. Caso o perfil seja do próprio jogador, o sistema permite a alteração das informações.
+3. O jogador pode alterar a foto de perfil e seu nome.
+4. Após alterações, o sistema apresenta as opções:
+4.1 Confirmar alterações.
+4.2 Cancelar. 
+5. A qualquer momento, o jogador pode fechar a tela, redirecionando para o ponto anterior do jogo.
+
+2.1. Variante CONFIRMAR ALTERAÇÕES
+2.1.1. Jogador confirma as informações modificadas.
+2.1.2. Sistema retorna ao passo 1.
+
+2.2. Variante CANCELAR
+2.2.1. Jogador cancela as alterações.
+2.2.2. Sistema redireciona para a tela de perfil.

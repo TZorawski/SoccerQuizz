@@ -3,7 +3,7 @@
 1.1. Jogar em Modo Clássico
 1.2. Jogar em Modo Competição
 2. Usuário escolhe o Modo de Jogo desejado.
-3. Sistema redireciona para página de jogo.
+3. Sistema redireciona para caso de uso Jogar.
 
 1.1. Variante MODO CLÁSSICO:
 1.1.1. Usuário opta por jogar fora de uma competição.

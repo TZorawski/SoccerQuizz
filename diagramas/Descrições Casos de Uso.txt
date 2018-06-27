@@ -344,7 +344,7 @@ Caso de Uso <<REP>> EXIBIR RANKING INDIVIDUAL
 ================================================================================
 
 Caso de Uso <<REP>> EXIBIR RANKING COMPETIÇÃO
-1. O sistema apresenta um lista com os 17 jogadores com a maior pontuação no Modo de Jogo Competição. O usuário pode visualizar a classificação na sua equipe, ou a classificação Geral.
+1. O sistema apresenta um lista com os 17 jogadores com a maior pontuação no Modo de Jogo Competição. O usuário pode visualizar a classificação das equipes, ou a sua posição na classificação Geral.
 2. Sistema também apresenta no fim, em qual posição o jogador está e a sua pontuação.
 3. Se o usuário clicar em qualquer jogador, o sistema redireciona para o perfil dele <<EXTENDS>> Exibir Perfil
 4. A qualquer momento, o jogador pode fechar a tela, redirecionando para a tela ESCOLHER MODO DE JOGO

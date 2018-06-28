@@ -412,6 +412,64 @@
 										},
 										{
 											"_type": "UMLOperationView",
+											"_id": "AAAAAAFkRJVlFR8L/go=",
+											"_parent": {
+												"$ref": "AAAAAAFj74HbLc55LjQ="
+											},
+											"model": {
+												"$ref": "AAAAAAFkRJVk5x8IgqI="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 189,
+											"top": 359,
+											"width": 220.03515625,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+int: getPosicaoRanking()",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5,
+											"wordWrap": false
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFkQzIAW2pdELA=",
+											"_parent": {
+												"$ref": "AAAAAAFj74HbLc55LjQ="
+											},
+											"model": {
+												"$ref": "AAAAAAFkQzIAK2palO4="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 189,
+											"top": 374,
+											"width": 220.03515625,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+<List>Participacao: getParticipacao()",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5,
+											"wordWrap": false
+										},
+										{
+											"_type": "UMLOperationView",
 											"_id": "AAAAAAFkJewjMRngB4c=",
 											"_parent": {
 												"$ref": "AAAAAAFj74HbLc55LjQ="
@@ -429,7 +487,7 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 189,
-											"top": 359,
+											"top": 389,
 											"width": 220.03515625,
 											"height": 13,
 											"autoResize": false,
@@ -458,41 +516,12 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 189,
-											"top": 374,
+											"top": 404,
 											"width": 220.03515625,
 											"height": 13,
 											"autoResize": false,
 											"underline": true,
 											"text": "+<List>Jogador: gerarRanking()",
-											"horizontalAlignment": 0,
-											"verticalAlignment": 5,
-											"wordWrap": false
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFkQzIAW2pdELA=",
-											"_parent": {
-												"$ref": "AAAAAAFj74HbLc55LjQ="
-											},
-											"model": {
-												"$ref": "AAAAAAFkQzIAK2palO4="
-											},
-											"visible": true,
-											"enabled": true,
-											"lineColor": "#000000",
-											"fillColor": "#ffffff",
-											"fontColor": "#000000",
-											"font": "Arial;13;0",
-											"showShadow": true,
-											"containerChangeable": false,
-											"containerExtending": false,
-											"left": 189,
-											"top": 389,
-											"width": 220.03515625,
-											"height": 13,
-											"autoResize": false,
-											"underline": false,
-											"text": "+<List>Participacao: getParticipacao()",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -516,41 +545,12 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 189,
-											"top": 404,
+											"top": 419,
 											"width": 220.03515625,
 											"height": 13,
 											"autoResize": false,
 											"underline": true,
 											"text": "+<List>String: gerarRankingPaises()",
-											"horizontalAlignment": 0,
-											"verticalAlignment": 5,
-											"wordWrap": false
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFkRJVlFR8L/go=",
-											"_parent": {
-												"$ref": "AAAAAAFj74HbLc55LjQ="
-											},
-											"model": {
-												"$ref": "AAAAAAFkRJVk5x8IgqI="
-											},
-											"visible": true,
-											"enabled": true,
-											"lineColor": "#000000",
-											"fillColor": "#ffffff",
-											"fontColor": "#000000",
-											"font": "Arial;13;0",
-											"showShadow": true,
-											"containerChangeable": false,
-											"containerExtending": false,
-											"left": 189,
-											"top": 419,
-											"width": 220.03515625,
-											"height": 13,
-											"autoResize": false,
-											"underline": false,
-											"text": "+int: getPosicaoRanking()",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -4283,35 +4283,6 @@
 										},
 										{
 											"_type": "UMLOperationView",
-											"_id": "AAAAAAFkI/p2c+Qf2bg=",
-											"_parent": {
-												"$ref": "AAAAAAFj74eZLM+fgJs="
-											},
-											"model": {
-												"$ref": "AAAAAAFkI/p2QOQchI0="
-											},
-											"visible": true,
-											"enabled": true,
-											"lineColor": "#000000",
-											"fillColor": "#ffffff",
-											"fontColor": "#000000",
-											"font": "Arial;13;0",
-											"showShadow": true,
-											"containerChangeable": false,
-											"containerExtending": false,
-											"left": 557,
-											"top": 146,
-											"width": 231,
-											"height": 13,
-											"autoResize": false,
-											"underline": true,
-											"text": "+Jogo: encontrarAdversario(j: Jogador)",
-											"horizontalAlignment": 0,
-											"verticalAlignment": 5,
-											"wordWrap": false
-										},
-										{
-											"_type": "UMLOperationView",
 											"_id": "AAAAAAFkI/vOYOaYcTM=",
 											"_parent": {
 												"$ref": "AAAAAAFj74eZLM+fgJs="
@@ -4329,12 +4300,41 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 557,
-											"top": 161,
+											"top": 146,
 											"width": 231,
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
 											"text": "+void: sair(j: Jogador)",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5,
+											"wordWrap": false
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFkI/p2c+Qf2bg=",
+											"_parent": {
+												"$ref": "AAAAAAFj74eZLM+fgJs="
+											},
+											"model": {
+												"$ref": "AAAAAAFkI/p2QOQchI0="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 557,
+											"top": 161,
+											"width": 231,
+											"height": 13,
+											"autoResize": false,
+											"underline": true,
+											"text": "+Jogo: encontrarAdversario(j: Jogador)",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -13624,6 +13624,34 @@
 						},
 						{
 							"_type": "UMLOperation",
+							"_id": "AAAAAAFkRJVk5x8IgqI=",
+							"_parent": {
+								"$ref": "AAAAAAFj74HbJ85wi7M="
+							},
+							"name": "int: getPosicaoRanking",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFkQzIAK2palO4=",
+							"_parent": {
+								"$ref": "AAAAAAFj74HbJ85wi7M="
+							},
+							"name": "<List>Participacao: getParticipacao",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"concurrency": "sequential",
+							"isQuery": false,
+							"isAbstract": false
+						},
+						{
+							"_type": "UMLOperation",
 							"_id": "AAAAAAFkJewhBhnd5gA=",
 							"_parent": {
 								"$ref": "AAAAAAFj74HbJ85wi7M="
@@ -13670,20 +13698,6 @@
 						},
 						{
 							"_type": "UMLOperation",
-							"_id": "AAAAAAFkQzIAK2palO4=",
-							"_parent": {
-								"$ref": "AAAAAAFj74HbJ85wi7M="
-							},
-							"name": "<List>Participacao: getParticipacao",
-							"visibility": "public",
-							"isStatic": false,
-							"isLeaf": false,
-							"concurrency": "sequential",
-							"isQuery": false,
-							"isAbstract": false
-						},
-						{
-							"_type": "UMLOperation",
 							"_id": "AAAAAAFkRJLwVBh14Fk=",
 							"_parent": {
 								"$ref": "AAAAAAFj74HbJ85wi7M="
@@ -13691,20 +13705,6 @@
 							"name": "<List>String: gerarRankingPaises",
 							"visibility": "public",
 							"isStatic": true,
-							"isLeaf": false,
-							"concurrency": "sequential",
-							"isQuery": false,
-							"isAbstract": false
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFkRJVk5x8IgqI=",
-							"_parent": {
-								"$ref": "AAAAAAFj74HbJ85wi7M="
-							},
-							"name": "int: getPosicaoRanking",
-							"visibility": "public",
-							"isStatic": false,
 							"isLeaf": false,
 							"concurrency": "sequential",
 							"isQuery": false,
@@ -15574,20 +15574,20 @@
 						},
 						{
 							"_type": "UMLOperation",
-							"_id": "AAAAAAFkI/p2QOQchI0=",
+							"_id": "AAAAAAFkI/vOK+aVU6U=",
 							"_parent": {
 								"$ref": "AAAAAAFj74eZK8+WMAI="
 							},
-							"name": "Jogo: encontrarAdversario",
+							"name": "void: sair",
 							"visibility": "public",
-							"isStatic": true,
+							"isStatic": false,
 							"isLeaf": false,
 							"parameters": [
 								{
 									"_type": "UMLParameter",
-									"_id": "AAAAAAFkJFAFLDdYVrs=",
+									"_id": "AAAAAAFkJFFEwT0xRw0=",
 									"_parent": {
-										"$ref": "AAAAAAFkI/p2QOQchI0="
+										"$ref": "AAAAAAFkI/vOK+aVU6U="
 									},
 									"name": "j",
 									"visibility": "public",
@@ -15608,20 +15608,20 @@
 						},
 						{
 							"_type": "UMLOperation",
-							"_id": "AAAAAAFkI/vOK+aVU6U=",
+							"_id": "AAAAAAFkI/p2QOQchI0=",
 							"_parent": {
 								"$ref": "AAAAAAFj74eZK8+WMAI="
 							},
-							"name": "void: sair",
+							"name": "Jogo: encontrarAdversario",
 							"visibility": "public",
-							"isStatic": false,
+							"isStatic": true,
 							"isLeaf": false,
 							"parameters": [
 								{
 									"_type": "UMLParameter",
-									"_id": "AAAAAAFkJFFEwT0xRw0=",
+									"_id": "AAAAAAFkJFAFLDdYVrs=",
 									"_parent": {
-										"$ref": "AAAAAAFkI/vOK+aVU6U="
+										"$ref": "AAAAAAFkI/p2QOQchI0="
 									},
 									"name": "j",
 									"visibility": "public",

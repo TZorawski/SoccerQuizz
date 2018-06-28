@@ -1,0 +1,16 @@
+views.JogadorPerfilGUI$9
+views.JogadorPerfilGUI$7
+views.JogadorPerfilGUI$8
+views.JogadorPerfilGUI$5
+views.JogadorPerfilGUI$6
+views.JogadorPerfilGUI$3
+views.JogadorPerfilGUI$4
+views.JogadorPerfilGUI$1
+views.JogadorPerfilGUI$2
+views.JogadorPerfilGUI$15
+views.JogadorPerfilGUI$14
+views.JogadorPerfilGUI$13
+views.JogadorPerfilGUI$12
+views.JogadorPerfilGUI$11
+views.JogadorPerfilGUI
+views.JogadorPerfilGUI$10

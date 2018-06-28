@@ -1,0 +1,15 @@
+view.PerguntaGUI$1
+view.PerguntaGUI$12
+view.PerguntaGUI$11
+view.PerguntaGUI$10
+view.PerguntaGUI
+view.PerguntaGUI$14
+view.PerguntaGUI$13
+view.PerguntaGUI$7
+view.PerguntaGUI$6
+view.PerguntaGUI$9
+view.PerguntaGUI$8
+view.PerguntaGUI$3
+view.PerguntaGUI$2
+view.PerguntaGUI$5
+view.PerguntaGUI$4

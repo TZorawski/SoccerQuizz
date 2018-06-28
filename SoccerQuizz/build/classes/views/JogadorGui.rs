@@ -1,0 +1,13 @@
+views.JogadorGUI$2
+views.JogadorGUI$1
+views.JogadorGUI$4
+views.JogadorGUI$3
+views.JogadorGUI$6
+views.JogadorGUI$12
+views.JogadorGUI$5
+views.JogadorGUI$8
+views.JogadorGUI$10
+views.JogadorGUI$7
+views.JogadorGUI$11
+views.JogadorGUI$9
+views.JogadorGUI
